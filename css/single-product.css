@@ -1,0 +1,204 @@
+.woocommerce div.product div.summary, .woocommerce div.product .woocommerce-tabs ul.tabs li.active a,
+#main > div.woocommerce-message, #page-wrapper > div.him.full-width.mh-500.pb-50 > div > div > div > div > div.woocommerce-message{
+	font-family: open sans !important;
+
+}
+
+#main > div.woocommerce-message, #page-wrapper > div.him.full-width.mh-500.pb-50 > div > div > div > div > div.woocommerce-message{
+    font-size: 17px;
+}
+
+div > div.images > img{
+	height: 350px !important;
+	width: 350px !important;
+}
+div > div.summary.entry-summary > form > button{
+	background-color: #EB1C5C !important;
+}
+.woocommerce div.product p.price, .woocommerce .woocommerce-breadcrumb{
+	color: #EB1C5C !important;
+}
+.woocommerce-cart table.cart img{
+	width: 160px !important;
+}
+
+td.product-remove > a{
+	margin-left: auto;
+	margin-right: auto;
+}
+.cart_item > td.product-name > a, .cart_item > td.product-subtotal > span,
+tr.order-total > td > strong > span{
+	color: #EB1C5C;
+}
+
+/*APPLY COUPON BUTTON AND UPDATE BUTTON and VIEW CART BUTTON*/
+#page-wrapper > div.him.full-width.mh-500.pb-50 > div > div > div > div > form > table > tbody > tr > td > div > input.button,
+#page-wrapper > div.him.full-width.mh-500.pb-50 > div > div > div > div > form > table > tbody > tr > td > input.button,
+#main > div.woocommerce-message > a{
+	background-color: #EB1C5C; 
+	color: white;
+	font-size: 16px;
+}
+
+/*PROCEED TO CHECKOUT BUTTON*/
+#page-wrapper > div.him.full-width.mh-500.pb-50 > div > div > div > div > div > div > div > a,
+#page-wrapper > div.him.full-width.mh-500.pb-50 > div > div > div > div > form > table > tbody > tr.cart_item > td.product-remove > a:hover{
+	background-color: #EB1C5C; 
+}
+
+#coupon_code{
+	width: 134px;
+}
+
+div > div.summary.entry-summary > div.product_meta, div > div.summary.entry-summary > div:nth-child(3) > p, 
+#tab-description > p{
+	font-size: 15px;
+}
+
+#tab-description > p{
+	margin-left: 16px;
+}
+
+/*PRODUCT DESCRIPTION TITLE*/
+#tab-description > h2{
+	font-size: 0px;
+}
+
+/*CART TOTAL*/
+#page-wrapper > div.him.full-width.mh-500.pb-50 > div > div > div > div > div > div{
+	float: right;
+    width: 235px;
+}
+
+#page-wrapper > div.him.full-width.mh-500.pb-50 > div > div > div > div > div > div > h2{
+	font-size: 24px;
+}
+
+#page-wrapper > div.him.full-width.mh-500.pb-50 > div > div > div > div > div > div > table > tbody > tr.cart-subtotal > td > span,
+#page-wrapper > div.him.full-width.mh-500.pb-50 > div > div > div > div > div > div > table > tbody > tr.order-total > td > strong > span{
+	float: right;
+    margin-right: 42px;
+}
+
+#page-wrapper > div.him.full-width.mh-500.pb-50 > div > div > div > div > form{
+	width: 850px;
+    float: left;
+}
+
+.woocommerce span.onsale{
+	min-width: 3.56em;
+}
+
+#page-wrapper > div.him.full-width.mh-500.pb-50 > div > div > div > div > form > table > thead > tr > th,
+#page-wrapper > div.him.full-width.mh-500.pb-50 > div > div > div > div > div > div > div > a,
+#order_review > table,
+#payment{
+	font-family: open sans;
+}
+
+#order_review > table, #payment, article > div > div > div{
+	font-size: 17px;
+}
+
+div.content-area > article{
+	width: 1180px;
+    background: #E5E7E8;
+    border-radius: 8px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+    display: block;
+    padding-top: 75px;
+    padding-bottom: 0px;
+}
+
+#place_order{
+	background-color: #EB1C5C;
+	font-family: open sans !important;
+}
+
+.woocommerce .woocommerce-info:before, .woocommerce form .form-row .required, 
+#order_review > table > tbody > tr > td.product-name, #order_review > table > tbody > tr > td.product-total > span{
+	color: #EB1C5C;
+}
+.woocommerce .woocommerce-info{
+	border-top-color:#EB1C5C;
+}
+
+ div.content-area > article > header > h1{
+	font-size: 47px;
+}
+
+ article > div > div > div{
+	font-family: open sans;
+}
+
+#customer_details > div.col-1 > div > p > label,
+#select2-chosen-1, #billing_country > option, #customer_details > div.col-1 > div > div.create-account,
+#order_comments_field > label, #order_comments, #s2id_autogen1_search, #select2-results-1,
+#payment > ul > li.payment_method_cheque > div > p,
+#payment > ul > li.payment_method_paypal > div > p,
+#s2id_autogen2_search, #select2-results-2{
+	font-size: 15px !important;
+	font-family: open sans !important;
+}
+
+#customer_details > div.col-1 > div > p > input, #account_password{
+	height: 35px;
+	font-size: 15px;
+	font-family: open sans !important;
+}
+
+#payment > ul > li.payment_method_paypal > label > a{
+	margin-left: 10px;
+}
+#order_comments{
+	height: 150px;
+	resize: none;
+}
+
+#s2id_billing_state > a, #s2id_billing_country > a{
+	height: 35px;
+}
+
+#select2-chosen-2{
+	font-size: 15px;
+}
+
+#page-wrapper > div.him.full-width.mh-500.pb-50 > div > div > div > div > ul{
+	font-size: 17px;
+}
+
+article > div > div > form.checkout.woocommerce-checkout > ul{
+	font-size: 17px;
+}
+
+article > div > div > form.login{
+	font-size: 15px;
+    font-family: open sans;
+}
+
+#username, #password, #coupon_code{
+	font-size: 15px;
+    height: 35px;
+    font-family: open sans;
+}
+article > div > div > form.login > p > input.button, article > div > div > form.checkout_coupon > p.form-row.form-row-last > input{
+	color: white;
+	background-color: #EB1C5C;
+}
+
+article > div > div > ul{
+	font-size: 17px;
+}
+
+div > div.summary.entry-summary > h1, div > div.summary.entry-summary > form > button,
+article > header > h1, #customer_details > div.col-1 > div > h3, #customer_details > div.col-2 > div > h3,
+#order_review_heading{
+	font-weight: 300;
+}
+
+body:before{
+	display: none !important;
+}

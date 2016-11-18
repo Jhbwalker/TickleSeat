@@ -1,0 +1,16 @@
+/*
+  Theme Name: Tickleseat
+  Description: Child Theme Based on TwentyFifteen
+  Author: Jesson Foo / Kerub Querubin
+  Template: legenda
+  version: 1.0.0
+  Text-domain: tickleseat 
+*/
+
+@import url(css/legenda.css);
+@import url(css/legenda-override.css);
+@import url(css/global.css);
+@import url(css/single-product.css);
+@import url(css/blog.css);
+@import url(css/slider.css);
+@import url(css/site.css);

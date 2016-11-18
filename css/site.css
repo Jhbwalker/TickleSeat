@@ -1,0 +1,216 @@
+
+
+/* #primary{ */
+/*   z-index:-60; */
+/*   background-color:black !important; */
+/* } */
+
+.customize-support::before{
+  display:none !important;
+  /* z-index:-20; */
+  background-color:inline-black !important;
+}
+p , h1 ,h2 ,h3 ,h4 ,h5 ,h6, li, a{
+    font-family: 'open sans';
+}
+td{
+  font-family: 'open sans';
+  border:0;
+}
+table{
+  border:0;
+}
+a:hover{
+  text-decoration: none;
+}
+/*---------------------------------------*/
+/*------------------- NAV ---------------*/
+/*---------------------------------------*/
+#page-wrapper > div:nth-child(1){
+  border-bottom:1px solid rgb(255, 255, 255);
+}
+.menu-menu-container{
+  text-align: center;
+}
+#navbar{
+  display: inline-block;
+}
+#navbar ul{
+  margin: 0;
+  margin-top:3px;
+}
+#navbar li{
+  display: inline-block;
+  margin:0 12px;
+  padding-bottom:2px;
+  padding-right: 6px;
+  padding-left: 5px;
+}
+#navbar li:hover{
+  background-color: #eb1c5c;
+  border-radius: 8px;
+}
+#navbar li:hover a{
+  color:white;
+}
+#navbar a{
+ font-family: 'open sans' !important;
+ color:white;
+ font-weight: 300;
+ font-size:15px;
+}
+.current-menu-item{
+ background-color: #eb1c5c;
+  border-radius: 8px;
+}
+.current-menu-item a{
+  color:white !important;
+  text-transform: uppercase;
+}
+/*---------------------------------------*/
+/*----------------- FOOTER --------------*/
+/*---------------------------------------*/
+#footerFAQ{
+  list-style: none;
+  margin-bottom: 60px;
+  line-height: 2;
+}
+#footerFAQ li{
+  color:white;
+  font-weight:300 !important;
+  font-size:12px;
+}
+#footerContact{
+  line-height: 2;
+}
+#footerContact li{
+  list-style: none;
+  color:white;
+  font-weight: 300 !important;
+  font-size:12px;
+}
+.right-block{
+  display:none;
+}
+#huge_it_videogallery_popup_list_4 .popup-wrapper_4 .image-block_4{
+  border-right:0 !important;
+  display: block;
+  margin: 0 auto !important;
+  float:none !important;
+  width: 100% !important;
+}
+#huge_it_videogallery_popup_list_4 li.pupup-element .popup-wrapper_4{
+  overflow: hidden !important;
+  padding-top:7% !important;
+  width:100% !important;
+}
+#huge_it_videogallery_popup_list_4{
+  display: block;
+  margin:0 auto !important;
+  width:60% !important;
+  left:20% !important;
+  height:70% !important;
+}
+#huge_it_videogallery_popup_list_4 .heading-navigation{
+  background: transparent !important;
+}
+.left-change{
+  border:0 !important;
+}
+.right-change{
+  border:0 !important;
+}
+.hugeitmicro-item{
+  display:inline-block !important;
+  transform: none !important;
+  position:relative !important;
+}
+div#huge_it_videogallery_container_4{
+  text-align: center;
+}
+div#main.site-main.t15wc {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+}
+
+#thevideo > iframe{
+  max-width:100%;
+}
+
+/***********************************/
+/*************POST*****************/
+/*********************************/
+#posts{
+  margin-bottom:30px;
+}
+.more-link{
+  display:none;
+}
+#posts h1{
+  font-weight:300;
+  font-size:40px;
+  text-transform: capitalize;
+  color:#979797;
+}
+#posts p{
+  font-size:12px;
+  color:#979797;
+}
+#postDate{
+  display:inline-block;
+  vertical-align: middle;
+}
+
+#postbttn{
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 5px 10px;
+  background: rgba(0, 0, 0, 0);
+  color: rgb(235, 28, 92);
+  border: 1px solid rgb(235, 28, 92);
+  float:right;
+}
+/* home top banner */
+#first-sec{
+  transform:skewY(-2deg);
+  -webkit-transform:skewY(-2deg);
+  /* padding: 100px 0 150px 0; */
+  padding: 100px 0 30px 0;
+  margin-top: -120px;
+}
+#first-sec-con{
+  transform:skewY(2deg);
+  -webkit-transform: skewY(2deg);
+}
+
+/* TESTIMONIAL */
+
+.t-arrow{
+  position: absolute;
+  right:15px;
+  top:8px;
+  transform: all 0.6s ease-in-out;
+  -webkit-transform: all 0.6s ease-in-out;
+  -moz-transform: all 0.6s ease-in-out;
+  -o-transform: all 0.6s ease-in-out;
+  -ms-transform: all 0.6s ease-in-out;
+}
+.rotateA{
+  transform:rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+}
+
+button:hover{
+  background-color:transparent !important;
+  color:rgb(235, 28, 92);
+  border:1px solid rgb(235, 28, 92);
+}
+#huge_it_videogallery_content_4 #huge_it_videogallery_container_4 .videoelement_4{
+  display:inline-flex;
+}
